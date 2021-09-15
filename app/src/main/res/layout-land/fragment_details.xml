@@ -1,0 +1,79 @@
+<!--
+Author: Manish Enishetty
+CID:    C22384538
+MailID: menishe@clemson.edu
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimaryDark"
+    android:id="@+id/linear"
+    tools:context="com.zybooks.team4_hw3.DetailsFragment">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/weather_details"
+        android:textSize="40sp"
+        android:textColor="@color/colorText"
+        android:layout_gravity="center"/>
+
+    <TableLayout android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/table"
+        android:stretchColumns="2">
+        <TableRow>
+
+            <TextView
+                android:id="@+id/temp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/temperature"
+                android:textColor="@color/colorText"
+                android:textSize="55sp"
+                android:textStyle="bold"
+                android:visibility="visible" />
+
+            <TextView
+                android:layout_column="2"
+                android:id="@+id/date"
+                android:layout_width="240dp"
+                android:layout_height="match_parent"
+                android:text="@string/date"
+                android:textColor="@color/colorText"
+                android:textSize="32sp"
+                android:visibility="visible" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/location_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/location_name"
+                android:textColor="@color/colorText"
+                android:textSize="32sp"
+                android:visibility="visible" />
+            <ImageButton
+                android:id="@+id/weather"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="2"
+                android:contentDescription="@string/image_content"
+                android:src="@drawable/sunny" />
+        </TableRow>
+
+        <TableRow >
+
+
+        </TableRow>
+
+
+    </TableLayout>
+</LinearLayout>

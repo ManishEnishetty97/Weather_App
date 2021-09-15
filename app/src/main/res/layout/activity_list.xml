@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Author: Manish Enishetty
+CID:    C22384538
+MailID: menishe@clemson.edu
+-->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/list_fragment_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" />

@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Team4-hw3</string>
+    <string name="location_name">Location</string>
+    <string name="temperature">Temperature</string>
+    <string name="date">Date</string>
+    <string name="description">Description</string>
+    <string name="weather_details">Weather Details</string>
+    <string name="image_content">Image representation of weather</string>
+
+    <string-array name="locations_names">
+        <item>Clemson</item>
+        <item>Hyderabad</item>
+        <item>New York</item>
+        <item>London</item>
+        <item>Charlotte</item>
+        <item>New Delhi</item>
+        <item>Paris</item>
+        <item>Cincinnati</item>
+        <item>Dallas</item>
+        <item>Helsinki</item>
+        <item>Tokyo</item>
+    </string-array>
+
+    <string-array name="citycodes">
+        <item>4574989</item>
+        <item>1269843</item>
+        <item>5392171</item>
+        <item>2643743</item>
+        <item>4460243</item>
+        <item>1261481</item>
+        <item>2968815</item>
+        <item>4508722</item>
+        <item>4684888</item>
+        <item>658225</item>
+        <item>1850147</item>
+    </string-array>
+
+
+</resources>
